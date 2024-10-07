@@ -19,7 +19,7 @@ app.use("/api/v1",userRoutes)
 app.use("/api/v1/book",bookRoutes)
 
 app.get("/",(req,res)=>{
-    res.send("<center><h1>E-Library Management Api</h1><br>Get Recipe Api <a href=https://github.com/Devanshiballar/Recipe-Management.git target=_blank>Repository :E-Library Management</a></center>")
+    res.send("<center><h1>E-Library Management Api</h1><br>Get Recipe Api <a href=https://github.com/Devanshiballar/E-Library-Management.git target=_blank>Repository :E-Library Management</a></center>")
   })
   
   app.listen(PORT, () => {
